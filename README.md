@@ -178,11 +178,20 @@ BEN’s default taxonomy supports **up to 15 biomedical entity types** (schema i
 
 ---
 
-## Roadmap
+## Data Availability
 
-* Optional **entity normalization** (linking) stage
-* Simple **CLI** wrapper around `extract_entities`
-* Export to **JSONL / spaCy .spans** formats
+- **UMLS semantic types**: [Current list](https://www.nlm.nih.gov/research/umls/META3_current_semantic_types.html)
+- **BigBio datasets**: [Hugging Face BigBio](https://huggingface.co/bigbio)
+- **BEN inference outputs (NER spans)**: [Hugging Face dataset](https://huggingface.co/john-dope/datasets)
+- **Base model weights**: [BiomedBERT base uncased abstract+fulltext](https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext)
+- **BEN LoRA adapter weights**: [Hugging Face models](https://huggingface.co/john-dope/models)
+
+---
+
+## Code Availability
+
+- **Source code, prompts, mappings, examples**: [BioMedBigDataCenter/BEN](https://github.com/BioMedBigDataCenter/BEN)
+- **Interactive demo server**: [biosino.org/ben/home](https://www.biosino.org/ben/home)
 
 ---
 
