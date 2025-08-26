@@ -1,0 +1,9 @@
+from pathlib import Path
+
+
+MODELS_BASEDIR = Path("/models")
+LORA_BASEDIR = Path("/loras")
+SPECIAL_TOKEN_LABEL_ID = -100
+OVERLAY_ENTITIES_KEEP_LONGEST = True
+MIN_ENTITIES_PER_TYPE = 10
+PROJECT_ROOT = Path("/app")
